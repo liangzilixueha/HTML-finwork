@@ -1,0 +1,88 @@
+
+        #float {
+            background-image: url(../img/float.png);
+            background-size: 100px 100px;
+            width: 100px;
+            height: 100px;
+            z-index: 999;
+            position: absolute;
+            top: 10px;
+        }
+
+        #guide-next {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 60%;
+            height: 50px;
+            //background-color:red;
+            //display:none;
+        }
+
+        .guide-txt {
+            margin-top: 20px;
+            height: 30px;
+            border-radius: 20px;
+            z-index: 6;
+            background-color: rgba(255, 216, 0,1);
+        }
+
+        #guide-icon {
+            background-image: url(../img/down.png);
+            background-size: 50px 50px;
+            transform: rotate(90deg);
+            width: 50px;
+            height: 50px;
+            z-index: 7;
+            position: absolute;
+            top: 10px;
+        }
+
+        .guide-txt span {
+            width: 50px;
+            z-index: 10;
+            font-size: 20px;
+            font-family: Harrington;
+            padding-right: 35px;
+            padding-left: 45px;
+        }
+
+        .foot-bar {
+            height: 5px;
+            background-color: #fa5d42;
+            margin: 0px auto;
+        }
+
+        .foot {
+            height: 350px;
+            background: url(../img/foot.jpg) no-repeat;
+            background-position: 0px -140px;
+            background-size: cover;
+            padding: 38px 0px 45px 0px;
+        }
+
+        .text {
+            width: 1000px;
+            margin: 0 auto;
+            color: white;
+            font-size: 6px;
+        }
+
+        .dingyue {
+            right: 140px;
+            position: absolute;
+            top: -10px;
+            width: 75px;
+            height: 75px;
+        }
+
+        .df-text {
+            color: white;
+            position: absolute;
+            bottom: -21px;
+            left: 1px;
+            width: 120px;
+            font-size: 10px;
+        }
+
+     
